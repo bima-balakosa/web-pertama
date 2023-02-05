@@ -172,3 +172,32 @@ h1 {
     font-family: "Oswald", sans-serif !important;
 
 }
+
+@media only screen and (max-width:412px) {
+    .main h1 {
+        text-align: center;
+    }
+
+    .main .btn1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: small;
+        width: 40%;
+    }
+
+    .img_comic {
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -90px;
+
+
+    }
+
+    .img-fluid {
+        max-width: 70%;
+        border-radius: 10%;
+    }
+
+}
